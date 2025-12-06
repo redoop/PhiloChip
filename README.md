@@ -225,6 +225,12 @@
   - 五伦 × 八德 = 64指令
 
 #### 西方哲学
+- **`plato_cpu.py`** - 柏拉图CPU (128指令)
+  - 理念论：理念世界 + 现象世界
+  - 洞穴寓言：从影子到太阳
+  - 三分灵魂：理性、意志、欲望
+  - 四主德：智慧、勇敢、节制、正义
+
 - **`wittgenstein_cpu.py`** - 维特根斯坦CPU (128指令)
   - 《逻辑哲学论》7命题域
   - 语言游戏理论
@@ -478,6 +484,9 @@ python zero_instruction_fundamental.py
 
 # 10. 比较所有哲学CPU
 python philosophy_cpu_analysis.py
+
+# 10.5. 柏拉图CPU（理念论）
+python plato_cpu.py
 
 # 11. 查看特殊架构（量子、DNA、Rule 110）
 python special_architectures.py
