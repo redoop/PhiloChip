@@ -369,6 +369,33 @@
   - 生物计算：A, T, G, C
   - 并行生化反应
 
+### 5.5. 游戏与演示
+
+- **`minimal_cpu_games.py`** - 极简CPU游戏集
+  - 猜数字（SUBLEQ实现）
+  - 生命游戏（Rule 110）
+  - 汉诺塔（TriISC实现）
+  - 计算器（TISC实现）
+  - 互动式学习体验
+
+### 5.6. 现实产品分析
+
+- **`real_world_minimal_cpus.py`** - 现实中的极简CPU产品
+  - 3指令CPU真实存在
+  - MISC商业产品（NC4016, RTX2000, GA144）
+  - 历史发展脉络
+
+- **`two_instruction_reality.py`** - 双指令CPU现实分析
+  - 为什么双指令CPU罕见
+  - 理论可行性分析
+  - TISC的创新价值
+
+- **`oisc_real_products.py`** - OISC真实产品
+  - Stanford碳纳米管计算机（2013）
+  - 28核SUBLEQ FPGA处理器（2011）
+  - DIY硬件实现
+  - 开源工具链
+
 ### 6. 分析与验证工具
 
 - **`philosophy_cpu_analysis.py`** - 全球哲学体系适配性分析
@@ -487,6 +514,18 @@ python protein_cpu.py
 
 # 22. 基因编程语言
 python genetic_language.py
+
+# 23. 极简CPU游戏集
+python minimal_cpu_games.py
+
+# 24. 现实中的极简CPU产品
+python real_world_minimal_cpus.py
+
+# 25. 双指令CPU现实分析
+python two_instruction_reality.py
+
+# 26. OISC真实产品
+python oisc_real_products.py
 ```
 
 ### 核心概念演示
