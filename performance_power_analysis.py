@@ -35,6 +35,32 @@ def get_performance_metrics():
             'notes': '极简硬件，极低能耗，但性能差'
         },
         {
+            'name': '双指令CPU (TISC)',
+            'instructions': 2,
+            'ipc': '0.3-0.5',
+            'clock_mhz': '100-300',
+            'code_density': '低 (5-10x膨胀)',
+            'power_mw': '2-10',
+            'energy_per_op': '10-40 pJ',
+            'hardware_gates': '~1000',
+            'performance_rating': '⭐⭐',
+            'efficiency_rating': '⭐⭐⭐⭐⭐',
+            'notes': '阴阳平衡，比SUBLEQ易编程'
+        },
+        {
+            'name': '三指令CPU (TriISC)',
+            'instructions': 3,
+            'ipc': '0.6-0.9',
+            'clock_mhz': '200-500',
+            'code_density': '低 (3-5x膨胀)',
+            'power_mw': '5-15',
+            'energy_per_op': '15-50 pJ',
+            'hardware_gates': '~2000',
+            'performance_rating': '⭐⭐⭐',
+            'efficiency_rating': '⭐⭐⭐⭐⭐',
+            'notes': '三生万物，最小完整系统'
+        },
+        {
             'name': '奥卡姆剃刀CPU',
             'instructions': 8,
             'ipc': '0.5-0.8',
