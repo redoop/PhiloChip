@@ -266,6 +266,21 @@
   - Rule 110和Lambda演算编程示例
   - 初始状态即程序
 
+- **`zero_instruction_tutorial.py`** - 零指令编程完全教程
+  - 如何在没有指令的情况下编程
+  - Rule 110、Lambda演算、图灵机三种方法
+  - 实践指南和代码示例
+
+- **`zero_vs_one_instruction.py`** - 零指令 vs 单指令深度分析
+  - 从0到1的本质跃迁
+  - 5个维度的关键差异
+  - 哲学意义和实践应用
+
+- **`zero_instruction_fundamental.py`** - 零指令是计算机底层原理吗？
+  - 理论底层 vs 实现底层
+  - 微指令与零指令的关系
+  - 现代计算机的真实工作原理
+
 - **`rule110_cpu.py`** - Rule 110 CPU (0指令)
   - 细胞自动机
   - 状态转换规则实现计算
@@ -420,43 +435,52 @@ python subleq_emc2_simple.py
 # 6. 探索零指令编程
 python zero_instruction_programming.py
 
-# 7. 比较所有哲学CPU
+# 7. 零指令编程教程
+python zero_instruction_tutorial.py
+
+# 8. 零指令 vs 单指令对比
+python zero_vs_one_instruction.py
+
+# 9. 零指令是底层原理吗？
+python zero_instruction_fundamental.py
+
+# 10. 比较所有哲学CPU
 python philosophy_cpu_analysis.py
 
-# 8. 查看特殊架构（量子、DNA、Rule 110）
+# 11. 查看特殊架构（量子、DNA、Rule 110）
 python special_architectures.py
 
-# 9. FPGA实现可行性分析
+# 12. FPGA实现可行性分析
 python fpga_feasibility.py
 
-# 10. 性能与能耗对比分析
+# 13. 性能与能耗对比分析
 python performance_power_analysis.py
 
-# 11. 探索OISC哲学
+# 14. 探索OISC哲学
 python oisc_philosophy.py
 
-# 12. 概率驱动CPU
+# 15. 概率驱动CPU
 python probabilistic_cpu.py
 
-# 13. 薛定谔方程CPU
+# 16. 薛定谔方程CPU
 python schrodinger_cpu.py
 
-# 14. 光子CPU
+# 17. 光子CPU
 python photonic_cpu.py
 
-# 15. 模拟电路CPU
+# 18. 模拟电路CPU
 python analog_cpu.py
 
-# 16. 核子驱动CPU
+# 19. 核子驱动CPU
 python nuclear_cpu.py
 
-# 17. 化学CPU
+# 20. 化学CPU
 python chemistry_cpu.py
 
-# 18. 蛋白质CPU
+# 21. 蛋白质CPU
 python protein_cpu.py
 
-# 17. 基因编程语言
+# 22. 基因编程语言
 python genetic_language.py
 ```
 
