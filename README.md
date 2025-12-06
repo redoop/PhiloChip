@@ -21,14 +21,16 @@
 |------|------|--------|------|------|
 | 🏆 | **零指令架构** | **0** | 理论基础 | 1930s-1970s |
 | 🥇 | **终极CPU (SUBLEQ)** | **1** | 理论极限 | 1936 |
-| 🥈 | 奥卡姆剃刀CPU | 8 | 实用极简 | 1287-1347 |
-| 🥉 | RISC-V RV32I | 47 | 现代精简 | 2010 |
-| 4 | 易经CPU | 64 | 古代智慧 | 前1000 |
-| 5 | 佛教CPU | 64-128 | 宗教哲学 | 前563-483 |
-| 6 | 老子CPU | 122 | 道家思想 | 前571-471 |
-| 7 | 维特根斯坦CPU | 128 | 语言哲学 | 1889-1951 |
-| 8 | 量子CPU | ~10 | 量子计算 | 1980s |
-| 9 | DNA CPU | 4 | 生物计算 | 1994 |
+| 🥈 | **双指令CPU (TISC)** | **2** | 阴阳平衡 | 2025 |
+| 🥉 | **三指令CPU (TriISC)** | **3** | 三生万物 | 2025 |
+| 4 | 奥卡姆剃刀CPU | 8 | 实用极简 | 1287-1347 |
+| 5 | RISC-V RV32I | 47 | 现代精简 | 2010 |
+| 6 | 易经CPU | 64 | 古代智慧 | 前1000 |
+| 7 | 佛教CPU | 64-128 | 宗教哲学 | 前563-483 |
+| 8 | 老子CPU | 122 | 道家思想 | 前571-471 |
+| 9 | 维特根斯坦CPU | 128 | 语言哲学 | 1889-1951 |
+| 10 | 量子CPU | ~10 | 量子计算 | 1980s |
+| 11 | DNA CPU | 4 | 生物计算 | 1994 |
 
 ## 📊 完整指令集对比表
 
@@ -38,8 +40,10 @@
 |------|------|--------|------|------|------|----------|----------|
 | 🏆 0 | 零指令架构 | 0 | 理论基础 | 1930s-1970s | 图灵机/Lambda演算/Rule 110 | ✓ | `zero_instruction_programming.py` |
 | 🥇 1 | 终极CPU (SUBLEQ) | 1 | 理论极限 | 1936 | 图灵机理论 | ✓ | `ultimate_cpu.py` |
-| 🥈 2 | 奥卡姆剃刀CPU | 8 | 实用极简 | 1287-1347 | 奥卡姆剃刀原则 | ✓ | `occam_cpu.py` |
-| 🥉 3 | RISC-V RV32I | 47 | 现代精简 | 2010 | Berkeley RISC项目 | ✓ | `-` |
+| 🥈 2 | 双指令CPU (TISC) | 2 | 阴阳平衡 | 2025 | 阴阳二元论 | ✓ | `two_instruction_cpu.py` |
+| 🥉 3 | 三指令CPU (TriISC) | 3 | 三生万物 | 2025 | 道家哲学 | ✓ | `three_instruction_cpu.py` |
+|  4 | 奥卡姆剃刀CPU | 8 | 实用极简 | 1287-1347 | 奥卡姆剃刀原则 | ✓ | `occam_cpu.py` |
+|  5 | RISC-V RV32I | 47 | 现代精简 | 2010 | Berkeley RISC项目 | ✓ | `-` |
 |  4 | ARM Cortex-M0 | 56 | 嵌入式 | 2009 | ARM架构 | ✓ | `-` |
 |  5 | 易经CPU | 64 | 古代智慧 | 前1000 | 六十四卦 | ✓ | `hexagram_cpu.py` |
 |  6 | 儒家CPU | 64 | 东方伦理 | 前551-479 | 五伦八德 | ✓ | `confucian_cpu.py` |
@@ -175,6 +179,27 @@
 
 ### 2. 哲学驱动的CPU架构
 
+#### 极简主义架构
+- **`ultimate_cpu.py`** - 终极CPU/OISC (1指令)
+  - **SUBLEQ**：减法+条件跳转
+  - 理论极限，无法再简化
+  - 证明：1条指令 = 图灵完备
+
+- **`two_instruction_cpu.py`** - 双指令CPU/TISC (2指令)
+  - **MOVE + SUBLEQ**：阴阳二元
+  - 阴（被动传输）+ 阳（主动计算）
+  - 简约与实用的平衡点
+
+- **`three_instruction_cpu.py`** - 三指令CPU/TriISC (3指令)
+  - **LOAD + SUB + JLZ**：三生万物
+  - 正题（获取）+ 反题（变换）+ 合题（决策）
+  - 最小的"完整"计算系统
+
+- **`occam_cpu.py`** - 奥卡姆剃刀CPU (8指令)
+  - 极简主义：仅8条指令
+  - 每条指令都有存在的必要性
+  - 简约度：比RISC-V简单5.9倍
+
 #### 东方哲学
 - **`hexagram_cpu.py`** - 易经CPU (64指令)
   - 基于六十四卦的语义映射
@@ -199,16 +224,6 @@
   - 《逻辑哲学论》7命题域
   - 语言游戏理论
   - LADDER/THROW_AWAY指令（扔掉梯子）
-
-- **`occam_cpu.py`** - 奥卡姆剃刀CPU (8指令)
-  - 极简主义：仅8条指令
-  - 每条指令都有存在的必要性
-  - 简约度：比RISC-V简单5.9倍
-
-- **`ultimate_cpu.py`** - 终极CPU/OISC (1指令)
-  - **SUBLEQ**：减法+条件跳转
-  - 理论极限，无法再简化
-  - 证明：1条指令 = 图灵完备
 
 #### 宗教思想
 - **`christian_cpu.py`** - 基督教CPU (64指令)
@@ -390,49 +405,55 @@
 # 1. 查看易经-密码子映射
 python yijing_codon_mapping.py
 
-# 2. 体验终极CPU (SUBLEQ)
+# 2. 体验终极CPU (SUBLEQ - 1指令)
 python ultimate_cpu.py
 
-# 3. 用SUBLEQ计算爱因斯坦公式
+# 3. 双指令CPU (阴阳平衡)
+python two_instruction_cpu.py
+
+# 4. 三指令CPU (三生万物)
+python three_instruction_cpu.py
+
+# 5. 用SUBLEQ计算爱因斯坦公式
 python subleq_emc2_simple.py
 
-# 4. 探索零指令编程
+# 6. 探索零指令编程
 python zero_instruction_programming.py
 
-# 5. 比较所有哲学CPU
+# 7. 比较所有哲学CPU
 python philosophy_cpu_analysis.py
 
-# 6. 查看特殊架构（量子、DNA、Rule 110）
+# 8. 查看特殊架构（量子、DNA、Rule 110）
 python special_architectures.py
 
-# 7. FPGA实现可行性分析
+# 9. FPGA实现可行性分析
 python fpga_feasibility.py
 
-# 8. 性能与能耗对比分析
+# 10. 性能与能耗对比分析
 python performance_power_analysis.py
 
-# 9. 探索OISC哲学
+# 11. 探索OISC哲学
 python oisc_philosophy.py
 
-# 10. 概率驱动CPU
+# 12. 概率驱动CPU
 python probabilistic_cpu.py
 
-# 11. 薛定谔方程CPU
+# 13. 薛定谔方程CPU
 python schrodinger_cpu.py
 
-# 12. 光子CPU
+# 14. 光子CPU
 python photonic_cpu.py
 
-# 13. 模拟电路CPU
+# 15. 模拟电路CPU
 python analog_cpu.py
 
-# 14. 核子驱动CPU
+# 16. 核子驱动CPU
 python nuclear_cpu.py
 
-# 15. 化学CPU
+# 17. 化学CPU
 python chemistry_cpu.py
 
-# 16. 蛋白质CPU
+# 18. 蛋白质CPU
 python protein_cpu.py
 
 # 17. 基因编程语言
@@ -442,7 +463,7 @@ python genetic_language.py
 ### 核心概念演示
 
 ```python
-# SUBLEQ: 唯一指令实现所有计算
+# 1. SUBLEQ (1指令): 唯一指令实现所有计算
 # SUBLEQ a, b, c
 # Mem[b] = Mem[b] - Mem[a]
 # if (Mem[b] <= 0) then PC = c
@@ -451,6 +472,15 @@ python genetic_language.py
 # 准备 -5 在内存中
 # SUBLEQ [-5], [result], next
 # result = result - (-5) = result + 5
+
+# 2. TISC (2指令): 阴阳二元
+# MOVE dest, src  - 阴：数据传输
+# SUBLEQ a, b, c  - 阳：计算+控制
+
+# 3. TriISC (3指令): 三生万物
+# LOAD reg, addr  - 正：获取数据
+# SUB r1, r2      - 反：变换数据
+# JLZ reg, addr   - 合：控制流程
 ```
 
 ## 🧠 核心洞见
