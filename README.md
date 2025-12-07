@@ -405,6 +405,13 @@
 - **`unconventional_cpu_ideas.py`** - 未曾想象的CPU形态
   - 时间驱动（时钟、熵、节奏）
   - 社会计算（蚁群、市场、投票）
+
+- **`chronos_cpu.py`** - Chronos CPU/时钟CPU (48指令) ⭐ 新增
+  - 时间即数据，延迟即运算
+  - 相位即逻辑，频率即状态
+  - 超低功耗（100倍）、极简硬件（10倍）、超高精度（30倍）
+  - 已商用：TDC芯片、TOF相机、激光雷达
+  - 应用：激光雷达、脉冲神经网络、量子计算接口
   - 情感驱动（情绪、梦境、直觉）
   - 悖论系统（薛定谔猫、芝诺、哥德尔）
   - 艺术美学（色彩、诗歌、建筑）
@@ -840,6 +847,9 @@ python unconventional_cpu_ideas.py
 
 # 28. 宇宙共振CPU
 python cosmic_cpu.py
+
+# 29. 时钟CPU（Chronos CPU）
+python chronos_cpu.py
 ```
 
 ### 核心概念演示
