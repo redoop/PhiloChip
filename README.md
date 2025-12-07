@@ -657,6 +657,56 @@
 - **`human_computer_cpu.py`** - 人体计算机CPU (32指令)
   - 致敬历史上的人肉计算机（1880s-1950s）
   - "Computer"原本就是指做计算的人，不是机器
+
+### 7.8. 蚁群与群体智能 ⭐ 新增
+
+- **`ant_colony_cpu.py`** - 蚁群CPU (8指令)
+  - 数百万简单核心，涌现集体智能
+  - 简单×大量=复杂，整体>部分之和
+  - 信息素=共享内存，无中央控制
+  - 应用：蚁群优化(ACO)、群体机器人、网络路由
+
+- **`ant_colony_commercial_products.py`** - 蚁群CPU商业产品分析
+  - 三类相关产品：群体机器人、神经形态芯片、ACO加速器
+  - 最接近产品：Intel Loihi 2、Harvard Kilobot、SpiNNaker
+  - 为什么没有专用蚁群芯片：GPU已够用、应用场景窄
+
+- **`spinnaker_analysis.py`** - SpiNNaker项目深度分析
+  - Steve Furber (ARM之父) 的20年项目
+  - 100万ARM核心，模拟10亿神经元
+  - 商业化：SpiNNcloud Systems (德国，2021)
+  - 商业效果：⭐⭐⭐ (技术成功，市场有限)
+
+- **`spinnaker_applications.py`** - SpiNNaker应用场景
+  - 神经科学研究、脑疾病研究、机器人控制
+  - 类比：望远镜(看星系) vs SpiNNaker(看大脑)
+  - 终极问题：意识如何产生？智能的本质是什么？
+
+### 7.9. 生物神经元计算 ⭐⭐⭐ 重大突破
+
+- **`neuron_cpu_analysis.py`** - 神经元CPU：真实存在！
+  - FinalSpark Neuroplatform (2024): 16万活体神经元，$500/月租用
+  - Cortical Labs DishBrain (2022): 80万神经元学会玩Pong (5分钟)
+  - 功耗比传统CPU低100万倍
+  - 伦理问题：860亿神经元有意识吗？
+
+- **`biological_neuron_cpu.py`** - 生物神经元CPU设计 (12指令)
+  - 完全模仿人类神经细胞的CPU架构
+  - Leaky Integrate-and-Fire模型
+  - 突触可塑性、神经调质、异步并行
+  - 脉冲编码、事件驱动、自学习
+
+- **`neuron_cpu_power_analysis.py`** - 能耗计算分析
+  - 单个神经元：生物10nW vs CPU 1mW (10万倍差距)
+  - 860亿神经元：大脑20W vs Loihi 4.3kW (7倍) vs GPU 8.6MW (43万倍)
+  - 年电费：大脑$18 vs Loihi $3,800 vs GPU $750万
+  - 结论：神经形态芯片是最现实方案
+
+- **`86billion_neurons_simulation.py`** - 860亿神经元模拟方案
+  - 三种方案：超算($100亿)、神经形态($1-10亿)、真实细胞($500亿+)
+  - 最佳方案：混合架构 (真实神经元+芯片+超算)
+  - 实施路线图：2025-2050，分4个阶段
+  - 终极问题：它会有意识吗？是人还是机器？
   
 #### 历史案例
 - **哈佛天文台计算员**（1880s-1920s）：女性分类30万颗恒星
